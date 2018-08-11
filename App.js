@@ -9,6 +9,7 @@ export default class App extends React.Component {
           Hello Won Maung Thein, Welcome to Expo Workshop. Happy coding. What
           are you going to do now?
         </Text>
+        <Text>Another one</Text>
       </View>
     );
   }
@@ -17,9 +18,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#FECC32",
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "orange"
+    justifyContent: "center"
   }
 });
